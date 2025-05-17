@@ -404,6 +404,7 @@ td button {
   font-size: 14px;
   font-weight: 500;
   box-shadow: none !important;
+  display:block!important;
 }
 .pdf-input {
   width: 230px;
@@ -833,6 +834,4 @@ td:nth-child(2){
 }
 }
 
-.form-control{
-  display:block!important;
-}
+
