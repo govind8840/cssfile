@@ -1,3 +1,18 @@
+.verify_box{
+    
+     background-color: rgb(7, 7, 144);
+     width: 500px;
+     color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+    margin: 50px auto; 
+    
+}
+body{
+    font-family: 'Rugrats Sans', sans-serif!important;
+}
+
+
 .header {
     display: flex;
     justify-content:end;
@@ -23,7 +38,6 @@
     width: 100%;
     height:80vh;
   }
-
 
   /* styles/Dashboard.css */
 
@@ -386,7 +400,6 @@
   cursor: pointer;
   user-select: none;
 }
-
 .header_nv{
     background-color: #141414;
     color: #fff;
@@ -408,8 +421,8 @@
 }.navbar-brand img{
     width:50px;
 }
-/* 
-mega menu */
+
+
 .dropdown-header{
     padding: 0px;
     color:#0e67a1 ;
@@ -417,7 +430,7 @@ mega menu */
     font-weight: 700;
     background-color:#e2e2e2;
     padding:10px;
-    /* border-bottom: 1px solid black; */
+  
 }
 .nav-link.show{
     background-color:#e2e2e2;
@@ -434,16 +447,12 @@ mega menu */
 .dropdown-item{
     white-space:unset;
     font-weight: 500;
-    /* padding:3px; */
+
 }
 .dropdown-item_cus{
    padding: 2px 0px;
    background-color: transparent!important;
 }
-
-
-/* emd */
-
 .custom-verify-nav-button {
     background-color: #394e4a;
     color: #fff;
@@ -458,7 +467,7 @@ mega menu */
     background-color: #2e3e3b;
   }
 
-  /* Main and Sections */
+
   .custom-main {
     padding: 3rem 2rem;
     max-width: 600px;
@@ -476,7 +485,6 @@ mega menu */
     color: #222;
   }
 
-  /* Input and Verification */
   .custom-input-box {
     margin-bottom: 2rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
@@ -517,7 +525,7 @@ mega menu */
     background-color: #2e3e3b;
   }
 
-  /* QR Code Section */
+ 
   .custom-qr-section {
     margin-top: 3rem;
   }
@@ -583,8 +591,6 @@ mega menu */
     float: right;
   }
 
-
-  /* nav */
   .igi-navbar {
     background-color: #fff;
     border-bottom: 1px solid #eee;
@@ -649,7 +655,7 @@ mega menu */
   .igi-verify-btn:hover {
     background-color: #2e3e3b;
   }
-  /* :end */
+  
   @media screen and (min-width:320px)and (max-width:768px) {
     .custom-title {
       font-size: 28px;
@@ -660,7 +666,9 @@ mega menu */
   .title-box{
     align-items: baseline;
   }
-  }.form-select3 {
+  }
+
+  .form-select3 {
     padding: 5px 10px;
     font-size: 14px;
     border: 0px;
@@ -733,9 +741,7 @@ mega menu */
   .value-row td {  
     padding: 4px 6px;          
     font-size: 13px;
-        
-    
-
+          
   }
 
   .login-bg{
@@ -752,7 +758,6 @@ mega menu */
     padding:20px;
     border-radius: 10px;
 }
-
 
 .min-h-screen{
     font-family: 'Rugrats Sans', sans-serif!important;
@@ -861,394 +866,6 @@ td:nth-child(2){
     
 }
 }
-
-.cus-navbar{
-  background-color:#0e67a1;
-  color: #fff;
-}
-.btn-cus-icon{
-  background-color: #eaeaea !important;
-  color: #9d9d9d !important;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  border: 1px solid #bdbdbd !important;
-  
-}
-.btn-cus-icon4{
-  background: #6cc5ff54 !important;
-  color: #191919 !important;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  /* border: 1px solid #bdbdbd !important; */
-}
-
-.btn-cus-icon2{
-  color: #fff!important;
-  background: #1b89d0!important;
-  padding: 2px 4px;
-  
-
-}
-.btn-excel{
-  color: #fff!important;
-  /* font-size: 20px; */
- 
-  padding: 2px 4px;
-
-}
-.btn-excel i{
-  font-size: 20px;
-}
-.btn-cus-icon3{
-  background-color: white!important;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  color: #3e3e3e!important;
-  border-left: 1px solid #3e3e3e!important  ;
-}
-.box{
-  border: 1px solid;
-  padding: 10px;
-  position: relative;
-  top: 0;
-  margin: 10px 0px;
-}
-.box p{
-  position: absolute;
-  top:-15px;
-  z-index: 1000;
-  background-color:#eee;
-  font-weight: 700;
-}
-.cus-lable{
-  font-size:15px;
-  padding: 5px;
-  color: green;
-}
-.cus-lable2{
-  min-width: 105px;
-  font-size:15px;
-  padding: 5px;
-  color: green;
-}
-.cus-btn{
-  background-color: #0e67a1 !important;
-  color: #fff!important;
-  font-size: 12px;
-  display: inline-block;
-}
-.cus-btn_form{
-  background-color: #0e67a1 !important;
-  color: #fff!important;
-  font-size: 12px;
-   width: 140px;
-   height: 30px;
-   margin-bottom: 2px;
-}
-.sr-only{
-  font-size:13px;
-  color: green;
-}
-.datepick{
-  font-size: 12px;
-}
-.clr{
-  color: green;
-  font-size: 12px
- 
-}
-.upload-photo{
-  font-size: 12px;
-}
-.upload-photomini{
-  font-size: 10px;
-  display: flex;
-  gap: 4px;
-  align-items: center;
- 
-}
-  
-.user-img{
-  background-color: #ffffff;
-  width: 130px;
-  text-align: center;
-
-}
-.select__control {
-  text-align: left;
-}
-.mini-photo{
-  background-color: #ffffff;
-  display: flex;
-  gap: 5px;
-}
-.user-img img{
-  width: 90px;
-  height: 90px;
-}
-.mini-photo i{
- font-size: 20px;
-/* height:30px; */
-}
-.table-head{
-  background-color: transparent;
-
-}
-.hight-cus{
-height:70px!important;
-}
-.cus-headtbl th{
-  font-size: 15px;
-  font-weight: 500;
-  background-color: #ededed;
-
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px ;
-  text-align: left;
-
-}
-table, th {
-  border: 1px solid rgb(190, 190, 190);
-  border-collapse: collapse;
-} 
-.input-wdith-tbl{
-  width:200px;
-}
-.input-wdith-tbl2{
-  width: 150px;
-}
-.cus-card{
-  background-color: #eeeeee;  
-}
-/* body{
-  background-color: rgb(200, 195, 195);
-} */
-
-
-/* Customizing Bootstrap form-select */
-.form-select {
-  padding: 5px 10px; /* Adjust padding */
-  font-size: 14px; /* Change font size */
-  border: 1px solid #ccc; /* Custom border */
-  border-radius: 5px; /* Rounded corners */
-  background-color: #fff; /* Background color */
-  cursor: pointer; /* Cursor style */
-  height: 28px;
-  width: 130px;
-  white-space: nowrap; /* Prevents the text from wrapping to a new line */
-  overflow: hidden; /* Hides the text that exceeds the container's width */
-  text-overflow: ellipsis;
-}
-
-/* Change dropdown arrow color */
-.form-select:focus {
-  border-color: #007bff; /* Highlighted border on focus */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-/* Customize disabled dropdown */
-.form-select:disabled {
-  background-color: #e9ecef;
-  cursor: not-allowed;
-  opacity: 0.6;
-}
-
-/* Style for dropdown options */
-.form-select option {
-  padding: 5px;
-  font-size: 14px;
-}
-
-/* Add to your CSS file */
-.btn-success {
-  background-color: #28a745;
-  color: white;
-}
-
-.btn-success:hover {
-  background-color: #218838;
-}
-
-/* Adjust button spacing if needed */
-td button {
-  margin-bottom: 2px;
-}
-.form-control{
-  height: 28px;
-  padding: 0px 4px;
-  border-radius: 0px;
-  font-size: 14px;
-  font-weight: 500;
-  box-shadow: none!important;
-}
-.pdf-input{
-  width: 230px;
-  border-radius: 0px;
-  height: 28px;
-
-}
-.datepick {
-  width: 300px;
-  font-size: 12px;
-  height: 28px;
-}
-.basic-multi-select{
-  font-size: 12px;
-}
-.form-select2 {
-  padding: 5px 10px; /* Adjust padding */
-  font-size: 14px; /* Change font size */
-  border: 1px solid #ccc; /* Custom border */
-  border-radius: 5px; /* Rounded corners */
-  background-color: #fff; /* Background color */
-  cursor: pointer; /* Cursor style */
-  height: 28px;
-  background-color: #0e67a1 !important;
-  color: #fff !important;
-  font-size: 12px;
-  white-space: nowrap; /* Prevents the text from wrapping to a new line */
-  overflow: hidden; /* Hides the text that exceeds the container's width */
-  text-overflow: ellipsis;
-  outline: none;
-  width: 200px;
-
-}
-
-
-/* Suggestions dropdown */
-.position-relative {
-  position: relative;
-}
-
-.z-3 {
-  z-index: 3;
-}
-
-.list-group {
-  max-height: 300px;
-  overflow-y: auto;
-}
-
-.text-truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.note {
-  font-size: 12px;
-  margin-top: 10px;
-  line-height: 1.6;
-}
-
-.note span {
-  color: red;
-  font-weight: bold;
-}
-
-.note a {
-  color: #000000;
-  text-decoration: underline;
-  font-weight: 800;
-}
-.cus-navbar{
-    background-color:#0e67a1;
-    color: #fff;
-  }
-  .box2{
-    border: 1px solid;
-    padding: 20px 60px;
-    position: relative;
-    top: 0;
-    margin: 10px 0px;
-  }
-  .box2 p{
-    position: absolute;
-    top:-15px;
-    z-index: 1000;
-    background-color:#eee;
-    font-weight: 700;
-    color: black;
-  }
-  .bg-grey{
-    background-color: #eee;
-  }
-  .cus-lable3{
-    color: black;
-    font-weight: 600;
-  }
-  .img-box{
-    width: 100px;
-    text-align: center;
- 
-  }
-  .img-box img{
-    width: 100px;
-  }
-  .img-box p{
-    
-  }
-  .report-list {
-    width: 100%;
-    display: flex;
-    gap: 10px;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  
-  .report-row {
-    width: 200px;
-    /* border: 1px solid #ccc; */
-    padding: 15px;
-    border-radius: 6px;
-    /* background: #fafafa; */
-  }
-  
-
-  .upload-box {
-    width: 180px;
-
-    height: 100px;
-    border: 1px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  
-
-
-  .bg-light-pink {
-    background-color: #ffc8de4d;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-  }
-  .upload-box:hover {
-    border-color: #888;
-  }
-
-  .upload-box img {
-    width: 100%;
-    height: 100px;
-    cursor: pointer;
-  }
-
-  .file-input {
-    display: none;
-  }
-
-  .filename {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    color: #555;
-  }
-
-
-
-/*  */
-  /* reception start */
 
 .cus-navbar {
   background-color: #0e67a1;
@@ -1497,5 +1114,98 @@ td button {
   text-decoration: underline;
   font-weight: 800;
 }
+.cus-navbar{
+    background-color:#0e67a1;
+    color: #fff;
+  }
+  .box2{
+    border: 1px solid;
+    padding: 20px 60px;
+    position: relative;
+    top: 0;
+    margin: 10px 0px;
+  }
+  .box2 p{
+    position: absolute;
+    top:-15px;
+    z-index: 1000;
+    background-color:#eee;
+    font-weight: 700;
+    color: black;
+  }
+  .bg-grey{
+    background-color: #eee;
+  }
+  .cus-lable3{
+    color: black;
+    font-weight: 600;
+  }
+  .img-box{
+    width: 100px;
+    text-align: center;
+ 
+  }
+  .img-box img{
+    width: 100px;
+  }
+  .img-box p{
+    
+  }
+  .report-list {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .report-row {
+    width: 200px;
+    /* border: 1px solid #ccc; */
+    padding: 15px;
+    border-radius: 6px;
+    /* background: #fafafa; */
+  }
+  
 
-  /* :end */
+  .upload-box {
+    width: 180px;
+
+    height: 100px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+
+
+  .bg-light-pink {
+    background-color: #ffc8de4d;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  .upload-box:hover {
+    border-color: #888;
+  }
+
+  .upload-box img {
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+  }
+
+  .file-input {
+    display: none;
+  }
+
+  .filename {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  body{
+    font-family: 'Rugrats Sans', sans-serif!important;
+}
