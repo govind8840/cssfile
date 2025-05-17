@@ -253,32 +253,4 @@
   margin-left: -90px;
 }
 
-   @media screen and (min-width:320px) and (max-width:1024px) {
-.pdf-card {
-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  padding: 8px;
-  font-size: 14px;
-  line-height: 1;
-  position: relative;
-  page-break-inside: avoid;
-  margin-bottom: 130px;
-  margin: auto;
-}
-
-td:nth-child(1){
-    font-family: 'Rugrats Sans' , sans-serif!important;  
-    font-weight: 700;
-    font-size: 12px;
-    
-
-}
-td:nth-child(2){
-    font-family: 'Rugrats Sans' , sans-serif!important;  
-     font-size: 12px;
-    
-}
-}
-
 
