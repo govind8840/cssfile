@@ -266,3 +266,12 @@
 .container{
   display: none;
 }
+.block-ss{
+  display:none!important;
+}
+.navbar-ss{
+  display:none;
+}
+.homepage{
+ display:none!important;
+}
